@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 function App(){
 
-    const [input, setInput] = useState()
+    const [input, setInput] = useState("")
     const [url, setUrl] = useState("https://http.cat/400")
 
     function getImageFromCode(){

@@ -4,8 +4,8 @@ function Input({ value, onChange }){
         // event.preventDefult();
         onChange(event.target.value);
     }
-    return <input 
-        className="input" Type="text" 
+    return <input
+        className="input" type="text"
         value={value} 
         onChange={handleChange}
     /> 

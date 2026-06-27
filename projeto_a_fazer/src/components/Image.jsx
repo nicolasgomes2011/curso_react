@@ -1,11 +1,8 @@
-function Image( src ){
-    if (!src){
-        return "https://http.cat/400"
-    }
-    return <img 
-        className="Image"
+function Image({ src = "https://http.cat/404" }){
+    return <img
+        className="image"
         src={src}
-        alt = "Imagem do status code"
+        alt="Imagem do status code"
     />;
 }
 
